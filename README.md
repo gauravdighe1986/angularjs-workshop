@@ -12,10 +12,10 @@ Run the below commands to get started
 
     npm install http-server -g
 
-Please run http-server with cache-disabled, otherwise your files are cached for minimum  1 hour, 3600.
+MUST: Please run http-server with cache-disabled, otherwise your files are cached for minimum  1 hour, 3600.
 https://www.npmjs.com/package/http-server
 
-To serve AngularJS files on 8080
+To serve AngularJS files on 8080, 
 
     http-server -c-1
 
