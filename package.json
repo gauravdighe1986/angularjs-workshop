@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://krish@bitbucket.org/krish/angularjspro.git"
+    "url": "git+https://github.com/nodesense/angularjs-workshop.git"
   },
   "keywords": [
     "AngularJS",
@@ -17,7 +17,7 @@
   ],
   "author": "Gopalakrishnan Subramani <gopalakrishnan.subramani@gmail.com>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/krish/angularjspro#readme",
+  "homepage": "https://github.com/nodesense/angularjs-workshop",
   "dependencies": {
     "json-server": "^0.8.14",
     "angular": "^1.5.7"
