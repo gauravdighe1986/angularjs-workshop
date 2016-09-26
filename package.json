@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "AngularJS.Pro Professional Training Content",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api-server" : "node api-server.js",
-    "api-server-auth" : "node api-server.js authEnabled",
-    "api-server-nocors" : "node api-server.js noCors"
+    "api-server": "node api-server.js",
+    "api-server-auth": "node api-server.js authEnabled",
+    "api-server-nocors": "node api-server.js noCors"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/nodesense/angularjs-workshop",
   "dependencies": {
     "angular": "^1.5.7",
+    "express": "^4.14.0",
     "json-server": "^0.8.14",
     "jwt-simple": "^0.5.0",
     "lodash": "^4.16.2",
