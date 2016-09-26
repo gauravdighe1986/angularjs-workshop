@@ -2,9 +2,11 @@
   "name": "angularjspro",
   "version": "1.0.0",
   "description": "AngularJS.Pro Professional Training Content",
- 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-server" : "node api-server.js",
+    "api-server-auth" : "node api-server.js authEnabled",
+    "api-server-nocors" : "node api-server.js noCors"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,11 @@
   "license": "ISC",
   "homepage": "https://github.com/nodesense/angularjs-workshop",
   "dependencies": {
+    "angular": "^1.5.7",
     "json-server": "^0.8.14",
-    "angular": "^1.5.7"
+    "jwt-simple": "^0.5.0",
+    "lodash": "^4.16.2",
+    "moment": "^2.15.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.5",
