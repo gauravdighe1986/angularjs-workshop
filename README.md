@@ -50,20 +50,25 @@ we also have delayed resonse apis, useful for promise.all during promise worksho
     3. /delayed/api/cities
     4. /delayed/api/states
   
-You can enable simple token authentication by passing command line authEnabled. We have three users with hardcoded password.
+You can enable simple token authentication by passing command line authEnabled. Note, Authentication is not enabled by default.
+ 
+   > npm run api-server authEnabled
 
-staff: staff
-password: staff
 
-username: user
-password: user
+We have three users with hardcoded password.
 
-username: admin
-password: admin
+    staff: staff
+    password: staff
+
+    username: user
+    password: user
+
+    username: admin
+    password: admin
 
 To Authenticate with the server, the client should call below api
 
-POST http://localhost:7070/authenticate
+    POST http://localhost:7070/authenticate
 
 must send url-form encoded key/values, with 'username' and 'password' field
 
@@ -72,14 +77,16 @@ Server validate username and password, send JSON reply with serialized user obje
 
 After Authentication, the client should send "X-Auth-Token" header with token or Authorization with Bearer
 
-Example:
+    Example:
 
-X-Auth-Token: fasjlfksadlflkfaslkfasdlhklfdasdlkjflskd.fakjlsadjl
+    X-Auth-Token: fasjlfksadlflkfaslkfasdlhklfdasdlkjflskd.fakjlsadjl
 
-or 
+    or 
 
-Authorization: Bearer flfkalsdjflkajdfalflkjdslkfjaslk.kfalsjdklfajsl
+    Authorization: Bearer flfkalsdjflkajdfalflkjdslkfjaslk.kfalsjdklfajsl
 
 == Cors ==
 
-Cors is included by default, to disable Cors, command line "noCors" while running the server.
+Cors is included by default, to disable Cors, command line "noCors" while running the server. We disable cors for demonstration purpose.
+
+       > npm run api-server noCors
