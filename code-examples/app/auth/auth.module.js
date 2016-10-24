@@ -19,7 +19,7 @@ angular.module("auth.module", [
     $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams){
         console.log("$stateChangeStart");
 
-        /*
+        
         if (toState.name === "login") {
             return;
         }
@@ -30,7 +30,7 @@ angular.module("auth.module", [
             console.log("not authenticated");
             event.preventDefault(); 
             $state.go("login");
-        }*/
+        }
     })
 
     $rootScope.$on("$stateChangeError", function(event, toState, toParams, fromState, fromParams, error){

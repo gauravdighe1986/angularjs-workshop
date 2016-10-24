@@ -14,7 +14,8 @@
     "webdriver:update": "webdriver-manager update",
     "webdriver:start": "webdriver-manager start",
     "gulp": "gulp lint",
-    "gulp-build": "gulp browserify"
+    "browserify": "gulp browserify",
+    "gulp-js": "gulp js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,8 @@
   "homepage": "https://github.com/nodesense/angularjs-workshop",
   "dependencies": {
     "express": "^4.14.0",
+    "gulp-util": "^3.0.7",
+    "gutil": "^1.6.4",
     "json-server": "^0.8.14",
     "jwt-simple": "^0.5.0",
     "lodash": "^4.16.2",
