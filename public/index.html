@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html lang="en" ng-app="productApp" >
+<html lang="en" ng-app>
 <head>
  
   <meta charset="utf-8">
-  <title>{{appTitle}}-{{pageTitle}}</title>
+  <title>AngularJS-Training</title>
   <meta name="description" content="AngularJS-NodeSense">
   <meta name="author" content="krish@nodesen.se">
  
@@ -17,126 +17,17 @@
 </style>
 
 </head>
-<body >
+<body>
  
- <ng-include src="'app/templates/navigation.html'" >
- </ng-include>
+<div ng-init="title='Welcome to AngularJS'">
+  <h4>{{title}}</h4>
 
-
-<div >
-  
-  
-  <!-- place holder for ui-router to display templates -->
-  <ui-view>
-  </ui-view>
-
-  
+  <p>
+  Writing AngularJS application is simple and easy.. We just made our first application. 
+  </p>
 
 </div>
  
-  <script type="text/javascript" src="/components/angular/angular.js">
-  </script>
-
-  <script type="text/javascript" 
-  src="/components/angular-ui-router/release/angular-ui-router.js">
-  </script>
- 
-
-
-  <script type="text/javascript" 
-  src="/components/angular-resource/angular-resource.js">
-  </script>
- 
-   
-  <script src="app/js/app.module.js" type="text/javascript"></script>
-
-  <script src="app/js/app.config.js" type="text/javascript"></script>
-
-  <script src="app/js/app.controllers.js" type="text/javascript"> </script>
-
-
-  <script src="app/auth/auth.config.js" type="text/javascript">
-  </script>
-  
-  <script src="app/auth/auth.controllers.js" type="text/javascript">
-  </script>
- 
-  <script src="app/auth/auth.module.js" type="text/javascript">
-  </script>
-
-  <script src="app/auth/auth.services.js" type="text/javascript">
-  </script>
-
-
-
-  <script src="app/about/about.module.js" type="text/javascript">
-  </script>
-  
-  <script src="app/about/about.controllers.js" type="text/javascript">
-  </script>
-
-  <script src="app/about/about.components.js" type="text/javascript">
-  </script>
-
-  <script src="app/about/about.config.js" type="text/javascript">
-  </script>
-
-  <script src="app/home/home.module.js" type="text/javascript">
-  </script>
-  
-  <script src="app/home/home.controllers.js" type="text/javascript">
-  </script>
-
-  <script src="app/home/home.config.js" type="text/javascript">
-  </script>
-
-  <script src="app/product/product.config.js" type="text/javascript">
-  </script>
-  
-  <script src="app/product/product.controllers.js" type="text/javascript">
-  </script>
-
-  
-  <script src="app/product/product.filters.js" type="text/javascript">
-  </script>
-
-  <script src="app/product/product.module.js" type="text/javascript">
-  </script>
-
-  <script src="app/product/product.directives.js" type="text/javascript">
-  </script>
-
-  <script src="app/product/product.services.js" type="text/javascript">
-  </script>
-
-  <script src="app/cart/cart.storage.js" type="text/javascript">
-  </script>
-  
-  <script src="app/cart/cart.services.js" type="text/javascript">
-  </script>
-  
-  <script src="app/cart/cart.module.js" type="text/javascript">
-  </script>
-
-  <script src="app/cart/cart.config.js" type="text/javascript">
-  </script>
-  <script src="app/cart/cart.controllers.js" type="text/javascript">
-  </script>
-
-
-  <script src="app/brand/brand.module.js" type="text/javascript">
-  </script>
-
-  
-  <script src="app/brand/brand.config.js" type="text/javascript">
-  </script>
-  
-  <script src="app/brand/brand.components.js" type="text/javascript">
-  </script>
-  
-  <script src="app/brand/brand.services.js" type="text/javascript">
-  </script>
- 
-   
+  <script type="text/javascript" src="/components/angular/angular.js"></script>
 </body>
 </html>
