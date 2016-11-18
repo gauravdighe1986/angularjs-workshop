@@ -8,10 +8,7 @@
             "id": 5, 
             "name": "Samsung"
         }, 
-        {
-            "id": 6, 
-            "name": "HP"
-        }, 
+         
         {
             "id": 9, 
             "name": "Blackberry"
@@ -35,10 +32,6 @@
         {
             "id": 12, 
             "name": "Apple"
-        }, 
-        {
-            "id": 10, 
-            "name": "Moto"
         }, 
         {
             "id": 8, 
@@ -98,7 +91,7 @@
             "year": 2010
         },
         {
-            "brandId": 2,
+            "brandId": 1,
             "camera": "5 MP with AF and geotagging",
             "cpu": "600 MHz Qualcomm MSM7227",
             "display": "3.2\" 320 x 480",
@@ -113,7 +106,7 @@
             "year": 2010
         },
         {
-            "brandId": 2,
+            "brandId": 1,
             "camera": "5 MP AF with LED flash, geotagging, 720p HD recording (2.2 update needed)",
             "cpu": "1 GHz Qualcomm QSD 8250 Snapdragon",
             "display": "3.7\" 480 x 800 AMOLED or SLCD",
@@ -128,7 +121,7 @@
             "year": 2010
         },
         {
-            "brandId": 9,
+            "brandId": 1,
             "camera": "8 MP AF with dual LED flash, geotagging, 720p HD recording",
             "cpu": "1 GHz Qualcomm MSM 8255 Scorpion (Snapdragon)",
             "display": "4.3\" 480 x 800 SLCD",
@@ -143,7 +136,7 @@
             "year": 2010
         },
         {
-            "brandId": 8,
+            "brandId": 1,
             "camera": "5 MP AF with LED flash, geotagging, 720p HD recording",
             "cpu": "800 MHz Qualcomm MSM 7230",
             "display": "3.7\" 800 x 480 SLCD",
@@ -158,7 +151,7 @@
             "year": 2010
         },
         {
-            "brandId": 10,
+            "brandId": 1,
             "camera": "5 MP with AF",
             "cpu": "600 MHz Qualcomm",
             "display": "3.2\" 320 x 480",
@@ -173,7 +166,7 @@
             "year": 2010
         },
         {
-            "brandId": 3,
+            "brandId": 1,
             "camera": "5 MP AF CMOS sensor with dual LED flash, 720p HD video recording",
             "cpu": "1 GHz Qualcomm QSD 8250 Scorpion (Snapdragon)",
             "display": "4.3\" 480 x 800",
@@ -188,7 +181,7 @@
             "year": 2010
         },
         {
-            "brandId": 11,
+            "brandId": 1,
             "camera": "5 MP AF with flash, geotagging",
             "cpu": "600 MHz Qualcomm MSM7227",
             "display": "3.2\" 320 x 480 AMOLED",
@@ -203,7 +196,7 @@
             "year": 2010
         },
         {
-            "brandId": 0,
+            "brandId": 2,
             "camera": "5.0 MP AF with LED flash, geotagging, 720 x 480 video at 20 frame/s or higher",
             "cpu": "1 GHz Qualcomm QSD 8250 Snapdragon",
             "display": "3.7\" 480 x 800",
@@ -218,7 +211,7 @@
             "year": 2010
         },
         {
-            "brandId": 0,
+            "brandId": 1,
             "camera": "3 MP with flashlight",
             "cpu": "300 MHz",
             "display": "2.8\" 240 x 320",
@@ -233,7 +226,7 @@
             "year": 2010
         },
         {
-            "brandId": 5,
+            "brandId": 1,
             "camera": "5 MP AF with LED flash, geotagging",
             "cpu": "528 MHz Qualcomm MSM7225",
             "display": "3.2\" 240 x 320",
@@ -248,7 +241,7 @@
             "year": 2010
         },
         {
-            "brandId": 5,
+            "brandId": 3,
             "camera": "5 MP AF with LED flash and geotagging, 720p HD video recording",
             "cpu": "1 GHz Qualcomm QSD 8650 Scorpion (Snapdragon)",
             "display": "4.0\" 480 x 800",
@@ -263,7 +256,7 @@
             "year": 2010
         },
         {
-            "brandId": 5,
+            "brandId": 3,
             "camera": "3.0 MP AF",
             "cpu": "600 MHz",
             "display": "3.2\" 320 x 480",
@@ -278,7 +271,7 @@
             "year": 2010
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "5 MP AF, 720p HD video recording (rear); 1.3 MP (front)",
             "cpu": "1 GHz ARM Cortex-A8 Samsung Hummingbird",
             "display": "4.0\" 480 x 800 Super AMOLED",
@@ -293,7 +286,7 @@
             "year": 2010
         },
         {
-            "brandId": 5,
+            "brandId": 2,
             "camera": "5 MP 2560x1920 AF with LED flash, 720x480 video recording (rear); 0.3 MP 640x480(front)",
             "cpu": "1 GHz ARM Cortex-A8 Samsung Hummingbird S5PC110",
             "display": "4.0\" 480 x 800 Super AMOLED",
@@ -338,7 +331,7 @@
             "year": 2010
         },
         {
-            "brandId": 5,
+            "brandId": 12,
             "camera": "8.0 MP AF with LED flash, face detection, video stabilization, and geotagging, 1920 x 1080 video at 30 frame/s (rear); 0.3 MP VGA (front)",
             "cpu": "800 MHz dual-core Apple A5",
             "display": "3.5\" 640 x 960 Retina display, 326 ppi",
@@ -368,7 +361,7 @@
             "year": 2011
         },
         {
-            "brandId": 3,
+            "brandId": 1,
             "camera": "5 MP AF with LED flash, geotagging, 720p HD recording",
             "cpu": "1 GHz Qualcomm MSM8255 Snapdragon",
             "display": "3.7\" 480 x 800 SLCD",
@@ -383,7 +376,7 @@
             "year": 2011
         },
         {
-            "brandId": 2,
+            "brandId": 1,
             "camera": "Dual 5 MP AF rear back-illuminated sensors with dual LED flash; 1.3 MP front",
             "cpu": "1.2 GHz dual-core Qualcomm MSM 8660 Snapdragon",
             "display": "4.3\" 540x960 qHD at 256 ppi, Autostereoscopic 3D-capable (glasses-free) SLCD",
@@ -398,7 +391,7 @@
             "year": 2011
         },
         {
-            "brandId": 2,
+            "brandId": 1,
             "camera": "8 MP AF with dual LED flash, geotagging, 720p HD recording",
             "cpu": "1 GHz Qualcomm MSM 8255 Scorpion (Snapdragon)",
             "display": "4.0\" 480 x 800 SLCD",
@@ -413,7 +406,7 @@
             "year": 2011
         },
         {
-            "brandId": 9,
+            "brandId": 1,
             "camera": "8 MP AF rear with dual LED flash, geotagging, 1080p video @ 30frame/s; 0.3 MP VGA front",
             "cpu": "1.2 GHz dual-core Qualcomm MSM 8260 Snapdragon",
             "display": "4.3\" 540x960 qHD SLCD",
@@ -428,7 +421,7 @@
             "year": 2011
         },
         {
-            "brandId": 8,
+            "brandId": 1,
             "camera": "5 MP AF with LED flash, geotagging",
             "cpu": "600 MHz Qualcomm MSM7227",
             "display": "3.2\" 320 x 480",
@@ -443,7 +436,7 @@
             "year": 2011
         },
         {
-            "brandId": 10,
+            "brandId": 3,
             "camera": "8 MP, 3264x2448 pixels rear AF with LED flash, 1080p video @ 24frame/s, 720p @ 30 frame/s; 1.3 MP front",
             "cpu": "1 GHz Nvidia Tegra 2 dual-core ARM Cortex-A9",
             "display": "4.0\" 480 x 800",
@@ -458,7 +451,7 @@
             "year": 2011
         },
         {
-            "brandId": 11,
+            "brandId": 7,
             "camera": "8.0 MP AF with LED flash, 1080p video at 30 frame/s",
             "cpu": "1 GHz Texas Instruments OMAP4430 dual-core ARM Cortex-A9 SoC",
             "display": "4.3\" 540x960 qHD LCD",
@@ -473,7 +466,7 @@
             "year": 2011
         },
         {
-            "brandId": 0,
+            "brandId": 7,
             "camera": "5.0 MP AF rear with LED flash, 720p video at 30 frame/s; 0.3 MP VGA front",
             "cpu": "1 GHz Nvidia Tegra 2 dual-core ARM Cortex-A9",
             "display": "4.0\" 540x960 qHD LCD",
@@ -488,7 +481,7 @@
             "year": 2011
         },
         {
-            "brandId": 0,
+            "brandId": 7,
             "camera": "8.0 MP AF with flash, 720p HD video recording / 1.3MP front-facing camera",
             "cpu": "1.2 GHz TI OMAP4430",
             "display": "4.3\" 540 x 960",
@@ -503,7 +496,7 @@
             "year": 2011
         },
         {
-            "brandId": 8,
+            "brandId": 7,
             "camera": "5.0 MP AF, LED flash, zero shutter lag, 1080p video recording (1920x1080 @ 30 fps) (rear); 1.3 MP, 720p video (front)",
             "cpu": "1.2 GHz dual-core Texas Instruments OMAP4460 ARM Cortex-A9",
             "display": "4.65\" 720 x 1280 (Super AMOLED ~316 PPI)",
@@ -518,7 +511,7 @@
             "year": 2011
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "5.0 MP AF, LED flash, w480p@30fps video recording VGA video (front)",
             "cpu": "1.0 GHz Cortex-A8 (Hummingbird Chipset)",
             "display": "4.0\" 480 x 800 (Super AMOLED ~233 PPI)",
@@ -533,7 +526,7 @@
             "year": 2011
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "8.0 MP AF, LED flash, 1080p video recording (1920x1080 @ 30 fps) (rear); 2 MP VGA video (front)",
             "cpu": "1.4 GHz dual-core ARM Cortex-A9 SoC processor; Samsung Exynos 4210 (GT-N7000) / 1.5Ghz Qualcomm Snapdragon 8255T (GT-N7003)",
             "display": "5.3\" 800 x 1280",
@@ -548,7 +541,7 @@
             "year": 2011
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "8 MP 3264 x 2448 pixels, 1080p video @ 30frame/s (rear); 2 MP (front)",
             "cpu": "1.2 or 1.5 GHz dual-core ARM Cortex-A9 Samsung Exynos",
             "display": "4.27\" 480 x 800 Super AMOLED Plus",
@@ -563,7 +556,7 @@
             "year": 2011
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "5.0 MP AF with LED flash, macro, smile detection, panorama (rear); 0.31 MP (front)",
             "cpu": "1.4 GHz Qualcomm Snapdragon MSM8255T Scorpion",
             "display": "3.7\" 480 x 800 Super LCD",
@@ -578,7 +571,7 @@
             "year": 2011
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "8 MP AF with LED flash, smile detection, ISO control (rear), 1.3 MP (front)",
             "cpu": "1.2 GHz Samsung Hummingbird",
             "display": "4.5\" 480 x 800 Super AMOLED Plus",
@@ -638,7 +631,7 @@
             "year": 2011
         },
         {
-            "brandId": 5,
+            "brandId": 12,
             "camera": "8.0 MP with LED flash, face detection, video stabilization, geotagging, infrared cut-off filter, back-illuminated sensor, and available to take photos while shooting videos, 1080p@30fps video; 1.2 MP front, 720p@30fps video",
             "cpu": "1.3 GHz dual-core Apple A6",
             "display": "4.0\" 1136 x 640, 326 ppi",
@@ -653,7 +646,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 1,
             "camera": "5 MP AF rear with dual LED flash, geotagging, 720p video @ 25frame/s",
             "cpu": "1 GHz Qualcomm MSM 8255 Snapdragon",
             "display": "3.7\" 480x800 WVGA SLCD2",
@@ -683,7 +676,7 @@
             "year": 2012
         },
         {
-            "brandId": 3,
+            "brandId": 1,
             "camera": "8 MP AF rear with dual LED flash, geotagging, 1080p video @ 30frame/s; 1.3 MP (with 720p video recording)",
             "cpu": "1.5 GHz quad-core ARM Cortex-A9, Nvidia Tegra 3",
             "display": "4.7\" HD 720p 720x1280 pixels Super IPS LCD2",
@@ -698,7 +691,7 @@
             "year": 2012
         },
         {
-            "brandId": 2,
+            "brandId": 1,
             "camera": "8 MP camera with auto focus, LED flash, and BSI sensor (for better low-light captures), geotagging, 1080p video @ 30frame/s; 1.6 MP (with 720p video recording), Dedicated HTC \"ImageSense\" image processor",
             "cpu": "1.7 GHz, Quad core ARM Cortex-A9, Nvidia Tegra 3",
             "display": "4.7\" HD 720p super LCD 2 touch screen with Gorilla® Glass 2",
@@ -728,7 +721,7 @@
             "year": 2012
         },
         {
-            "brandId": 10,
+            "brandId": 7,
             "camera": "3.0 MP AF, LED flash,",
             "cpu": "1 GHz, MSM8255, Qualcomm",
             "display": "3.7\" 480x800",
@@ -743,7 +736,7 @@
             "year": 2012
         },
         {
-            "brandId": 3,
+            "brandId": 7,
             "camera": "8 MP AF, 1080p HD video recording (rear); 1.9 MP (front)",
             "cpu": "1.6 GHz quad-core Cortex-A9",
             "display": "5.5\" 720 x 1280 HD Super AMOLED 267 ppi",
@@ -758,7 +751,7 @@
             "year": 2012
         },
         {
-            "brandId": 11,
+            "brandId": 7,
             "camera": "8 MP AF, 1080p HD video recording (rear); 1.9 MP (front)",
             "cpu": "1.4 GHz quad-core Exynos",
             "display": "4.8\" 720 x 1280 Super AMOLED 306 ppi",
@@ -773,7 +766,7 @@
             "year": 2012
         },
         {
-            "brandId": 0,
+            "brandId": 7,
             "camera": "8 MP AF, 1080p HD video recording (rear); 1.9 MP (front)",
             "cpu": "1.4 GHz quad-core Exynos",
             "display": "4.8\" 720 x 1280 Super AMOLED 306 ppi",
@@ -788,7 +781,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "8 MP AF, 1080p HD video recording (rear); 1.9 MP (front)",
             "cpu": "1.4 GHz quad-core Exynos",
             "display": "4.8\" 720 x 1280 Super AMOLED 306 ppi",
@@ -803,7 +796,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "5 MP AF, 720p HD video recording (rear); 0.3 MP (front)",
             "cpu": "1.0 GHz dual-core Cortex-A9",
             "display": "4\" 480 x 800 Super AMOLED 233 ppi",
@@ -818,7 +811,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 8,
             "camera": "1080p FullHD video, f/2.4, Exmor R sensor, photo&video stabilizer; 0.3Mp front camera",
             "cpu": "1.5 GHz dual-core Snapdragon S4",
             "display": "4.3\" HD 720 x 1280 TFT LCD (340 ppi)",
@@ -833,7 +826,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 8,
             "camera": "12.1 1080p FullHD video, f/2.4, Exmor R sensor, photo&video stabilizer; 1.3Mp front camera, 720p HD",
             "cpu": "1.5 GHz Qualcomm MSM 8260 1.5 GHz Dual Core",
             "display": "4.3\" HD 720 x 1280 TFT LCD (340 ppi)",
@@ -863,7 +856,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "8 MP with flash (rear);",
             "cpu": "1.5 GHz Qualcomm Snapdragon S4 MSM8960 dual-core",
             "display": "4.8\" 1280x720",
@@ -878,7 +871,7 @@
             "year": 2012
         },
         {
-            "brandId": 5,
+            "brandId": 1,
             "camera": "4 MP, 2.0 μm camera with auto focus, \"UltraPixel\" image sensor, smart LED flash, BSI sensor, F2.0 aperture, 28 mm lens, dedicated imaging chip, continuous shooting, optical image stabilization. 1080p HD video recording, video stabilization, slow motion video capture (768 x 432 pixels), HDR video recording; 2.1-megapixel front camera (1080p recording)",
             "cpu": "1.7 GHz quad-core Krait 300 (snapdragon 600)",
             "display": "4.7\" HD 1080p Super LCD 3 with RGB matrix (16:9 Aspect ratio) (468 ppi) with Corning Gorilla Glass 2.0",
@@ -893,7 +886,7 @@
             "year": 2013
         },
         {
-            "brandId": 5,
+            "brandId": 3,
             "camera": "8 MP OIS (Optical Image Stabilizer), Sapphire Crystal Glass Lens, Multi-point AF (9 Points), Full HD 30fps Recording/Playback",
             "cpu": "2.3 GHz Quad-Core (Snapdragon 800) CPU, Krait 400",
             "display": "4.95\" 1920 x 1080, 445ppi",
@@ -908,7 +901,7 @@
             "year": 2013
         },
         {
-            "brandId": 1,
+            "brandId": 12,
             "camera": "8 MP back-side illuminated sensor, True Tone flash, HD video (1080p) at 30 frame/s, HD video (720p) at 120 frame/s; front, 1.2 MP, HD video (720p)",
             "cpu": "1.3 GHz dual-core Apple A7 (64-bit)",
             "display": "4.0\" 1136 x 640 LED backlit IPS TFT LCD",
@@ -923,7 +916,7 @@
             "year": 2013
         },
         {
-            "brandId": 3,
+            "brandId": 9,
             "camera": "8 MP rear, 1080p video with autofocus, LED flash; 2 MP front, 720p video",
             "cpu": "1.5 GHz dual-core Qualcomm Snapdragon S4 Plus (LTE) or TI OMAP 4470 (Non-LTE)",
             "display": "4.2\" 1280 x 768, 356 ppi",
@@ -938,7 +931,7 @@
             "year": 2013
         },
         {
-            "brandId": 2,
+            "brandId": 9,
             "camera": "8 MP rear, 1080p video with autofocus, LED flash; 2 MP front, 720p video",
             "cpu": "1.7 GHz dual-core Qualcomm Snapdragon S4 Plus (LTE) (MSM8960 T Pro)",
             "display": "5\" 1280 x 768, 295ppi, Super AMOLED",
@@ -953,7 +946,7 @@
             "year": 2013
         },
         {
-            "brandId": 2,
+            "brandId": 3,
             "camera": "13 MP OIS (Optical Image Stabilizer), 8x Digital zoom, Sapphire Crystal Glass Lens, Multi-point AF (9 Points), Full HD 60fps Recording/Playback",
             "cpu": "2.26 GHz Quad-Core (Snapdragon 800) CPU, Krait 400",
             "display": "5.2\" 1920 x 1080, 423ppi",
@@ -968,7 +961,7 @@
             "year": 2013
         },
         {
-            "brandId": 9,
+            "brandId": 7,
             "camera": "13.1 MP rear Full HD (1080p) video recording at 30fps, 2 MP front facing",
             "cpu": "1.9 GHz quad-core Krait 300 APQ8064T (Snapdragon 600) or 1.6 GHz quad-core ARM Cortex-A15 and 1.2 GHz quad-core ARM Cortex-A7 (Samsung Exynos 5 Octa 5410)",
             "display": "4.99\" 16M-color Super AMOLED HD capacitive touchscreen with a resolution of 1920 x 1080 pixels (441ppi)",
@@ -998,7 +991,7 @@
             "year": 2013
         },
         {
-            "brandId": 10,
+            "brandId": 8,
             "camera": "20.7 MP back-side illuminated sensor with LED flash 1080p video recording",
             "cpu": "2.2 GHz quad-core Krait",
             "display": "5.0\" 1920 x 1080 diagonal TFT, 441 ppi",
@@ -1013,7 +1006,7 @@
             "year": 2013
         },
         {
-            "brandId": 3,
+            "brandId": 8,
             "camera": "13.1 MP rear with Exmor RS, continuous autofocus, LED flash, geo-tagging, touch focus, face detection, image stabilization, video light, video stabilizer, HDR, sweep panorama, 1080p@30fps video; 2.2 MP front, 1080p@30fps video",
             "cpu": "1.5 GHz quad-core Snapdragon S4 Pro",
             "display": "5.0\" 1920 x 1080, 441 ppi",
@@ -1028,7 +1021,7 @@
             "year": 2013
         },
         {
-            "brandId": 11,
+            "brandId": 8,
             "camera": "13 MP rear with 4128x3096 pixels, continuous autofocus, LED flash, geo-tagging, touch focus, face detection, image stabilization, sweep panorama, video light, video stabilizer, 1080p@30fps video; 2 MP front, 720p@30fps video",
             "cpu": "1.5 GHz quad-core Qualcomm Krait (MSM8064)",
             "display": "5.0\" 1920 x 1080, 441 ppi",
@@ -1043,7 +1036,7 @@
             "year": 2013
         },
         {
-            "brandId": 0,
+            "brandId": 8,
             "camera": "8 MP rear with 3264x2448 pixels, continuous autofocus, LED flash, geo-tagging, touch focus, face detection, image stabilization, sweep panorama, video light, video stabilizer, 1080p@30fps video; 0.3 MP front, 480p@30fps video",
             "cpu": "1.7 GHz dual-core Qualcomm Krait (MSM8960T)",
             "display": "4.6\" 1280 x 720, 319 ppi",
@@ -1058,7 +1051,7 @@
             "year": 2013
         },
         {
-            "brandId": 5,
+            "brandId": 1,
             "camera": "4 MP (rear camera) w UltraPixel and Dual camera Depth sensor, phase detection, dual-LED flash, 5.0 MP (front camera)",
             "cpu": "Quad-core 2.5 GHz Krait 400 Qualcomm MSM8975AC Snapdragon 801",
             "display": "5.0\" 1920x1080",
@@ -1073,7 +1066,7 @@
             "year": 2014
         },
         {
-            "brandId": 5,
+            "brandId": 3,
             "camera": "13 MP (rear camera) w phase detection laser autofocus, optical image stabilization, dual-LED flash, 2.1 MP (front camera)",
             "cpu": "Quad-core 2.5 GHz Krait 400 Qualcomm MSM8975AC Snapdragon 801",
             "display": "5.5\" 2560x1440",
@@ -1088,7 +1081,7 @@
             "year": 2014
         },
         {
-            "brandId": 1,
+            "brandId": 12,
             "camera": "8 MP (rear camera)(supporting up to 240fps slo-mo video recording), 1.2 MP (front camera)",
             "cpu": "1.4 GHz dual-core Apple A8",
             "display": "4.7\" 1334x750",
@@ -1103,7 +1096,7 @@
             "year": 2014
         },
         {
-            "brandId": 3,
+            "brandId": 12,
             "camera": "8 MP (rear camera) (with Optical Image Stabilization, supporting up to 240fps slo-mo video recording), 1.2 MP (front camera)",
             "cpu": "1.4 GHz dual-core Apple A8",
             "display": "5.5\" 1920x1080",
@@ -1118,7 +1111,7 @@
             "year": 2014
         },
         {
-            "brandId": 2,
+            "brandId": 7,
             "camera": "16 MP with 4K(2160p) video recording (rear camera) 2.1 MP (front camera)",
             "cpu": "1.9 GHz quad-core Cortex-A15 and 1.3 GHz quad-core Cortex-A7",
             "display": "5.1\" 1920 x 1080, 432 ppi",
@@ -1133,7 +1126,7 @@
             "year": 2014
         },
         {
-            "brandId": 2,
+            "brandId": 7,
             "camera": "16 MP, Optical Image Stabilization, 4K(2160p) video recording (rear camera) 3.7 MP (front camera), wide selfie mode",
             "cpu": "1.9 GHz quad-core Cortex-A57 and 1.3 GHz quad-core Cortex-A53",
             "display": "5.7\" 2560 x 1440, 515 ppi",
@@ -1148,7 +1141,7 @@
             "year": 2014
         },
         {
-            "brandId": 9,
+            "brandId": 8,
             "camera": "20.7 MP back-side illuminated sensor with pulsed LED flash (with digital stabilisation), 4K video",
             "cpu": "Qualcomm Snapdragon MSM8974AC 801 @ 2.5 GHz",
             "display": "5.15\" BRAVIA IPS (1080 x 1920, 424 ppi)",
@@ -1163,7 +1156,7 @@
             "year": 2014
         },
         {
-            "brandId": 5,
+            "brandId": 4,
             "camera": "20 MP (rear camera), 5 MP (front camera)",
             "cpu": "Dual-core 1.82 GHz Cortex-A57 & Quad-core 1.44 GHz Cortex-A53",
             "display": "5.2\" 2560 x 1440",
@@ -1178,7 +1171,7 @@
             "year": 2015
         },
         {
-            "brandId": 5,
+            "brandId": 4,
             "camera": "20 MP (rear camera), 5 MP (front camera)",
             "cpu": "Quad-core 2 GHz Cortex-A57 & Quad-core 1.5 GHz Cortex-A53",
             "display": "5.7\" 2560 x 1440",
@@ -1283,7 +1276,7 @@
             "year": 2015
         },
         {
-            "brandId": 10,
+            "brandId": 7,
             "camera": "21 MP (rear camera), 5 MP (front camera)",
             "cpu": "Quad-core 1.7 GHz Cortex-A53 & Quad-core 1.0 GHz Cortex-A53",
             "display": "5.5\" 1920x1080",
@@ -1328,7 +1321,7 @@
             "year": 2015
         },
         {
-            "brandId": 0,
+            "brandId": 12,
             "camera": "12 MP (rear camera), 5 MP (front camera)",
             "cpu": "Dual-core 1.85 GHz",
             "display": "4.7\" 1334x750",
@@ -1343,7 +1336,7 @@
             "year": 2015
         },
         {
-            "brandId": 0,
+            "brandId": 12,
             "camera": "12 MP (rear camera), 5 MP (front camera)",
             "cpu": "Dual-core 1.85 GHz",
             "display": "5.5\" 1920x1080",
@@ -1358,7 +1351,7 @@
             "year": 2015
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "16 MP (rear camera), 5 MP (front camera)",
             "cpu": "Quad-core 2.1 GHz Cortex-A57 & Quad-core 1.5 GHz Cortex-A53",
             "display": "5.1\" 2560x1440",
@@ -1373,7 +1366,7 @@
             "year": 2015
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "16 MP (rear camera), 5 MP (front camera)",
             "cpu": "Quad-core 2.1 GHz Cortex-A57 & Quad-core 1.5 GHz Cortex-A53",
             "display": "5.1\" 2560x1440",
@@ -1388,7 +1381,7 @@
             "year": 2015
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "16 MP (rear camera), 5 MP (front camera)",
             "cpu": "Quad-core 2.1 GHz Cortex-A57 & Quad-core 1.5 GHz Cortex-A53",
             "display": "5.7\" 2560x1440",
@@ -1403,7 +1396,7 @@
             "year": 2015
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "16 MP (rear camera), 5 MP (front camera)",
             "cpu": "Quad-core 2.1 GHz Cortex-A57 & Quad-core 1.5 GHz Cortex-A53",
             "display": "5.7\" 2560x1440",
@@ -1433,7 +1426,7 @@
             "year": 2015
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "12 MP (rear camera), 5 MP (front camera)",
             "cpu": "Dual-core 2.15 GHz Kryo & Dual-core 1.44 GHz Kryo",
             "display": "5.1\" 2560 x 1440",
@@ -1448,7 +1441,7 @@
             "year": 2016
         },
         {
-            "brandId": 5,
+            "brandId": 7,
             "camera": "12 MP (rear camera), 5 MP (front camera)",
             "cpu": "Dual-core 2.15 GHz Kryo & Dual-core 1.44 GHz Kryo",
             "display": "5.5\" 2560 x 1440",
@@ -1494,7 +1487,7 @@
         },
 		
 		{
-            "brandId": 5,
+            "brandId": 12,
             "camera": "5.0 MP AF with LED flash and geotagging, 1280 x 720 video at 30 frame/s (rear); 0.3 MP VGA (front)",
             "cpu": "800 MHz Apple A4",
             "display": "3.5\" 640 x 960 Retina display, 326 ppi",
