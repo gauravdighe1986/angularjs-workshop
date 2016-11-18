@@ -10,9 +10,6 @@ server.set('jwtTokenSecret', 'yX!fglBbZr');
 
 
 
-
-
-
 server.get('/', function(req, res) {
     var results = [];
     results.push("<html><head><title>json-api-server</title></head>");
@@ -202,9 +199,53 @@ if (commandLine.indexOf("authenable") >= 0) {
 }
   
 var router = jsonServer.router('db.json')
+
+server.get('/api/exist/:model/:property/:value', function(req, res){
+    console.log("example ", req.params['model'])
+    var model = req.params['model'];
+    var property = req.params['property']
+    var value = req.params['value'];
+ 
+    
+    if (!model || !value || !property || !router.db.has(model).value()) {
+        res.status(422);
+        res.end();
+        return;
+    }
+
+    value = value.toLowerCase();
+    console.log("model", model);
+    console.log("property", property);
+    console.log("value", value);
+
+    
+
+    var results = router.db.get(model)
+    .filter(function(m) {
+        console.log(m[property]);
+        var m = m[property].toString().toLowerCase();
+        return m == value;
+    })
+    .take(1)
+    .value()
+
+    console.log(results);
+
+    if (results.length > 0) {
+        res.json({result: true})
+        res.end();
+        return;
+    }
+
+
+    return res.json({result: false})
+     
+})
+
 server.use('/api', router)
 
 
+ 
 
 server.listen(7070, function (err) {
     if (!err) {
