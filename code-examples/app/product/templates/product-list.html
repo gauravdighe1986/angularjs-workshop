@@ -18,7 +18,7 @@
 
 <div class="flex two">
     <div ng-repeat="product in products | orderBy:'-name' | byYear:year">
-       <product-widget>
+       <product-widget product="product" add-to-cart="addToCart(product)">
        </product-widget>
     </div>
 </div>

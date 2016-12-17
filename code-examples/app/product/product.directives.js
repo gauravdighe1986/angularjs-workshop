@@ -12,6 +12,14 @@ angular.module("product.directives", [])
     return {
         restrict: 'EA',
         templateUrl: 'app/product/templates/product-widget.html',
+        scope: {
+            product: '=',
+            addToCart: '&'
+        },
+
+        controller: function($scope) {
+             
+        },
 
         link: function(scope, elem, attr) {
              elem.bind("mouseenter", function(){
