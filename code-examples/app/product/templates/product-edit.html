@@ -13,13 +13,29 @@ input.ng-valid-valid-year {
 
 <form name="productForm">
     <label for="name">Name</label>
-    <input name="name" ng-model="product.name" />
+    <input name="name" ng-model="product.name" required ng-minlength="2" ng-maxlength="100" />
+
+    <span ng-if="productForm.name.$error.required">
+        required field 
+    </span>
+
+
+    <span ng-if="productForm.name.$error.minlength">
+        Min Length must be 2 chars
+    </span>
+
+
+    <span ng-if="productForm.name.$error.maxlength">
+        Max length should be 100 chars
+    </span>
+
+    <br />
 
     <label for="year">Year</label>
     <input name="year" ng-model="product.year"  year-validator />
 
     <span ng-if="productForm.year.$error.validYear">
-        Wrong Year 
+        Invalid Year 
     </span>
     <br />
     
